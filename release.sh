@@ -131,6 +131,7 @@ modules=(
     "--add-module=../modules/nginx-client-module"
     "--add-module=../modules/nginx-multiport-module"
     "--add-module=../modules/nginx-toolkit-module"
+	"--add-module=../modules/nginx-http-flv-module"
 )
 
 options=( "--prefix=$SERVER_ROOT" )
